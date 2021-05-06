@@ -48,7 +48,7 @@
   不妨考虑下例：
   `void f(int&& a) { ++a; }`
   而在`main`中：
-  `int a = 1;`
+  `int a = 2;`
   `f(std::move(a));`
   `std::cout << a << '\n';`
   其结果应为3。
